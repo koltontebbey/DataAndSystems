@@ -1,0 +1,55 @@
+body {
+   background-color:  #D3D3D3;
+   color: #A9A9A9;
+}
+
+nav {
+    background-color: #374F5C;
+    color: #fff;
+}
+
+navbar-brand {
+
+    color: #fff;
+}
+
+button {
+    color: white;
+    font-size: 12px;
+  
+}
+a {
+    color: #fff;
+
+}
+
+.smallFont {
+    font-size: 12px;
+}
+
+#notSoFunky {
+    color: indigo;
+}
+
+
+a:hover {
+    color: #BDCCAC;
+
+}
+ul {
+
+    color: #fff;
+}
+
+img {
+    border-radius: 6px;
+  box-shadow:  0 .6px 1.4px rgba(0,0,0,.02),0 1.3px 3.3px rgba(0,0,0,.028),0 2.5px 6.3px rgba(0,0,0,.035),0 4.5px 11.2px rgba(0,0,0,.042),0 8.4px 20.9px rgba(0,0,0,.05),0 20px 50px rgba(0,0,0,.07);
+}
+
+li {
+    color: #fff;
+}
+.col-6 {
+   
+    color: black;
+}
