@@ -14,6 +14,10 @@ var app = new Vue({
     this.PullData();
   },
   methods: {
+    handleRefresh: function( evt ) {
+        this.PullData();
+        console.log("click");
+    },
     PullData: function() {
         fetch("https://randomuser.me/api")
         .then( response => response.json() )
