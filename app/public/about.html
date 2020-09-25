@@ -42,6 +42,7 @@
           <center>
             <br />
             <div id="notSoFunky">
+            <form v-on:submit.prevent="handleRefresh"> 
           <h1>About Me</h1>
           <a v-bind:href="userImgLg"><img id="img" height=50% width=50% :src="userImgLg"></a>
           <div class="smallFont">Full image available by clicking it. Thanks to google images.</div>
@@ -50,10 +51,16 @@
           <h2>My name is {{ name }} </h2>
       
           <p>I am from {{ country }} and was born on {{ String(birthday) }} and I am {{ age }} years old. I go on adventures with my grandpa Rick and sometimes he gets us into situations. </p>
-          <a v-bind:href="'mailto:' + email"> {{email}} </a>
-          </div>
+          <a v-bind:href="'mailto:' + email"> {{email}} </a> <br />
+          <button type="submit" class="btn btn-primary">Refresh</button>  
+        </form>
+        </div>
+          
+      
           </center>
+          
       </div>
+      
         <div class="col">
           
         </div>
